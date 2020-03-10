@@ -4,8 +4,16 @@
 
 1. What does it mean to think in react?
 
+   think of smaller pieces of code that you can stack together like legos
+
 1. Describe state.
+
+   state is data that flow to components through props
 
 1. Describe props.
 
+   data passed down from state
+
 1. What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+   side effects are things that happen in the DOM that not intended like having to reload page for changes but this can be solved with useEffect hook
